@@ -1,0 +1,9 @@
+# Base chrome for the app. The in-app Dark/Light toggle repaints every
+# surface with its own stylesheet, so these values only set the first paint
+# and the accent colour used by sliders and checkboxes.
+[theme]
+base = "dark"
+primaryColor = "#4a8bc7"
+
+[browser]
+gatherUsageStats = false
